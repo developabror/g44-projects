@@ -2,6 +2,9 @@ package org.example;
 
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.*;
 
@@ -12,6 +15,8 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
+
+        Handler handler = new ConsoleHandler();
         while (true) {
             System.out.println("""
                     0 exit
